@@ -11,8 +11,7 @@ local function eventHandler(self, event, ...)
             -- Check if aura applied is Runic Affinity
             if (spellId == 354964)
                 then
-                    file = "Interface/AddOns/YAFSP/media/good_music.mp3"
-                    PlaySoundFile(file, "SFX") -- Play in SFX channel so it still plays even if music is muted
+                    PlaySoundFile("Interface/AddOns/YAFSP/media/good_music.mp3", "SFX") -- Play in SFX channel so it still plays even if music is muted
                 end
             end
         end
