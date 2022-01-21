@@ -12,7 +12,7 @@ local function eventHandler(self, event, ...)
             local spellId, spellName = select(12, CombatLogGetCurrentEventInfo()) -- i hate lua
             -- Check if aura applied is Runic Affinity
             if (spellId == 354964) then
-                PlaySoundFile("Interface/AddOns/YAFSP/media/good_music.mp3", "SFX") -- Play in SFX channel so it still plays even if music is muted
+                PlaySoundFile("Interface/AddOns/YAFSP/media/good_music.mp3", "SFX") -- Play in SFX channel so it still plays even if music is muted and you're still a clown
             end
         end
     end
