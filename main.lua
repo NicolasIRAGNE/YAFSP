@@ -5,7 +5,6 @@ local playerGUID = UnitGUID("player")
 
 local function eventHandler(self, event, ...)
     if (event == "COMBAT_LOG_EVENT_UNFILTERED") then
-        -- print message
         local timestamp, subevent, _, sourceGUID, sourceName, sourceFlags, sourceRaidFlags, destGUID, destName,
             destFlags, destRaidFlags = CombatLogGetCurrentEventInfo();
         if (subevent == "SPELL_AURA_APPLIED" and destGUID == playerGUID) then
