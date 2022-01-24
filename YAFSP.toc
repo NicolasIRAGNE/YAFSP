@@ -1,6 +1,6 @@
-## Interface: 90100
+## Interface: 90150
 ## Title: YAFSP
 ## Author: jackylafrite
-## Version: 0.1
+## Version: 0.4
 
 main.lua
